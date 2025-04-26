@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+.body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2b0131;
+}
+
+.Home{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    color: aliceblue;
+    padding: auto;
+}
+.Home a{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-color: #602c69;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.login-box{
+    padding-left: 30px;
+    background:  #490553;
+    border-radius: 12px;
+    width: 80%;
+}
+.login-box h1{
+    margin-top: 2%;
+}
+.login-box p{
+    padding-top: 2%;
+    margin-bottom: 20px;
+    margin-right: 10%;
+    color: #b36abb;
+    font-size: larger;
+}
+.login-box a{
+    margin-left: 3px;
+    text-decoration: none;
+}
+.login-box label{
+    font-size: large;
+    margin-top: 20px;
+}
+.login-box input{
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    text-decoration: #fffbfbc4;
+    background-color: #2b0131;
+    border: 0px;
+    width: 90%;
+}
+.login-box ::placeholder{
+    color: #fffbfbc4;
+    font-size: larger;
+}
+.Forgot{
+    text-align: right;
+    padding: 10px;
+    margin-right: 10%;
+}
+.option{
+    background-color: #2b0131;
+    text-align: center;
+    border-radius: 10px;
+    padding: 12px;
+    width: 90%;
+}
+.option a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: large;
+}
+.or {
+    margin-left: 43.90%;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 90%;
+    margin-bottom: 2%;
+}
+
+.logo img{
+    height: 30px;
+}
+.logo-btn{
+    flex: 1;
+    padding: 12px;
+    background-color: #2b0131;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*@media only screen and (max-width: 600px){
+    .Forgot{
+        margin-left: 38vw;
+    }
+}
+@media only screen and (min-width: 1500px){
+    .Forgot{
+        margin-left: 63vw;
+    }
+}*/
